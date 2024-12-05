@@ -1,0 +1,56 @@
+
+.main-cleaning-expert-container div h1,
+.home-refresh-container .right-container h1,
+.office-cleaners-container .left-container h1 {
+    margin: 1rem 0 2.6rem 0;
+    line-height: 6.5rem;
+    font-size: 6.5rem;
+    text-align: center;
+}
+
+.main-cleaning-expert-container div h1 b,
+.home-refresh-container .right-container h1 b,
+.office-cleaners-container .left-container h1 b {
+    font-weight: 300;
+}
+
+.main-cleaning-expert-container div h1 i,
+.home-refresh-container .right-container h1 i,
+.office-cleaners-container .left-container h1 i {
+    font-weight: 100;
+}
+
+.main-cleaning-expert-container div .tag-line,
+.home-refresh-container .right-container .tag-line,
+.office-cleaners-container .left-container .tag-line { 
+    font-weight: 300;
+    font-size: 1.4rem;
+    text-align: center;
+    line-height: 2.3rem;
+    letter-spacing: 0.1rem;
+}
+
+.main-cleaning-expert-container div .explore-button,
+.home-refresh-container .right-container .explore-button,
+.office-cleaners-container .left-container .explore-button {
+    width: max-content;
+    height: max-content;
+    border: none;
+    margin: 2rem 0;
+    font-size: 1.8rem;
+    border-radius: 3rem;
+    padding: 0.6rem 3.5rem;
+    background-color: var(--clr-accent);
+    transition: all0.3s ease-in-out;
+}
+
+
+#explore-button:hover {
+    transform: scale(1.2);
+    background-color: #f8700089;
+}
+
+#explore-button:active {
+    transform: scale(1);
+    background-color: var(--clr-accent);
+}

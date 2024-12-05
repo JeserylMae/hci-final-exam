@@ -1,0 +1,96 @@
+
+.services-container {
+    width: 100%;
+    height: max-content;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-refresh-container {
+    width: 90%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-refresh-container .left-container {
+    width: 20%;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-refresh-container .left-container img {
+    width: auto;
+    height: 35rem;
+    border-radius: 4rem;
+}
+
+.home-refresh-container .left-container div {
+    width: max-content;
+    height: max-content;
+    padding: 2rem;
+    border-radius: 2rem;
+    margin: -18rem 0 0 -10rem;
+    backdrop-filter: blur(1rem);
+    box-shadow: 0 2rem 5rem #00000033;
+    background-color: hsla(0, 0%, 100%, 0.3);
+}
+
+.home-refresh-container .left-container div h2{
+    font-size: 5rem;
+    font-weight: 200;
+    line-height: 3rem;
+    margin: 0;
+}
+
+.home-refresh-container .left-container div p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    width: max-content;
+    height: max-content;
+    letter-spacing: 0.1rem;
+}
+
+.home-refresh-container .right-container {
+    margin-left: 8rem;
+    display: flex;
+    width: max-content;
+    height: max-content;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.right-container div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.right-container div p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.right-container div p span {
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+
+.right-container .tag-line {
+    text-align: start;
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+
