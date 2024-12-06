@@ -47,7 +47,7 @@
 
 #explore-button:hover {
     transform: scale(1.2);
-    background-color: #f8700089;
+    background-color: var(--clr-highlight);
 }
 
 #explore-button:active {
