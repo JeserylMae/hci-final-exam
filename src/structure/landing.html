@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="../assets/broomstick.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="../styling/intersection.css">
+    <link rel="stylesheet" href="../styling/blog-container.css">
+    <link rel="stylesheet" href="../styling/reviews-container.css">
     <link rel="stylesheet" href="../styling/services-container.css">
     <link rel="stylesheet" href="../styling/cleaning-expert-container.css">
     <link rel="stylesheet" href="../styling/office-cleaners-container.css">
@@ -143,5 +145,130 @@
             <img src="../assets/hand-with-glove.jpg" alt="hand with glove picture">
         </div>
     </div>
+
+    <div class="reviews-container">
+        <div class="button-container">
+            <button type="button" id="previous-review"><span class="material-symbols-outlined">arrow_back_ios</span></button>
+            <button type="button" id="next-review"><span class="material-symbols-outlined">arrow_forward_ios</span></button>
+        </div>
+
+        <div class="main-reviews-container">
+            <div class="one-review-container first-review">
+                <div class="image">
+                    <img src="../assets/review-user-1.png" alt="">
+                </div>
+                <div class="review-details-container">
+                    <p class="review">"Clean Office, Happy Team! We've reached nothing but compliments from both staff and clients on how clean and organized our office. It's made such a difference in our workplace morale."</p>
+                    <p class="name">JOHN DOE</p>
+                    <p class="area">TECH GLOBAL CO.</p>
+                </div>
+            </div>
+
+            <div class="one-review-container second-review">
+                <div class="image">
+                    <img src="../assets/review-user-2.png" alt="">
+                </div>
+                <div class="review-details-container">
+                    <p class="review">"Stress-Free and Sparkling Clean! I have never been more impressed with a cleaning service! It feels amazing to come home to a clean house without having to worry about it!"</p>
+                    <p class="name">JANE PETERSON</p>
+                    <p class="area">HOME OWNER</p>
+                </div>
+            </div>
+
+            <div class="one-review-container third-review">
+                <div class="image">
+                    <img src="../assets/review-user-3.png" alt="">
+                </div>
+                <div class="review-details-container">
+                    <p class="review">"Professional and Detailed! Our office has never looked better! The cleaners are punctual, and their attention to high-traffic areas is exactly what we needed. Great value and service!"</p>
+                    <p class="name">CARLO MARTINEZ</p>
+                    <p class="area">INNOVATE GROUP</p>
+                </div>
+            </div>
+
+            <div class="one-review-container first-review">
+                <div class="image">
+                    <img src="../assets/review-user-1.png" alt="">
+                </div>
+                <div class="review-details-container">
+                    <p class="review">"Clean Office, Happy Team! We've reached nothing but compliments from both staff and clients on how clean and organized our office. It's made such a difference in our workplace morale."</p>
+                    <p class="name">JOHN DOE</p>
+                    <p class="area">TECH GLOBAL CO.</p>
+                </div>
+            </div>
+
+            <div class="one-review-container second-review">
+                <div class="image">
+                    <img src="../assets/review-user-2.png" alt="">
+                </div>
+                <div class="review-details-container">
+                    <p class="review">"Stress-Free and Sparkling Clean! I have never been more impressed with a cleaning service! It feels amazing to come home to a clean house without having to worry about it!"</p>
+                    <p class="name">JANE PETERSON</p>
+                    <p class="area">HOME OWNER</p>
+                </div>
+            </div>
+
+            <div class="one-review-container third-review">
+                <div class="image">
+                    <img src="../assets/review-user-3.png" alt="">
+                </div>
+                <div class="review-details-container">
+                    <p class="review">"Professional and Detailed! Our office has never looked better! The cleaners are punctual, and their attention to high-traffic areas is exactly what we needed. Great value and service!"</p>
+                    <p class="name">CARLO MARTINEZ</p>
+                    <p class="area">INNOVATE GROUP</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="blog-container">
+        <div class="header-container">
+            <h1>Latest Posts</h1>
+            <div>
+                <p><span>OUR RECENT ARTICLES</span> <br>
+                Simplify your tasks and maintain the cleanliness.</p>
+            </div>
+        </div>
+
+        <div class="post-container">
+            <div class="one-post-container">
+                <div>
+                    <img src="../assets/sponge.jpg" alt="blog image">
+                    <button type="button" class="redirect-button">
+                        <span class="material-symbols-outlined">north_east</span>
+                    </button>
+                </div>
+                <div class="blog-tile-container">
+                    <div class="blog-author-container">
+                        <p><span>CLEANING TIPS</span> OCT 9</p>
+                        <hr>
+                        <img src="../assets/blog-author-1.png" alt="Author Image">
+                        <p>ALEX WAYNE</p>
+                    </div>
+                    <h3>Guide To Keeping Your Home Sportless</h3>
+                </div>
+            </div>
+
+            <div class="one-post-container">
+                <div>
+                    <img src="../assets/office-with-cabinet.jpg" alt="blog image">
+                    <button type="button" class="redirect-button">
+                        <span class="material-symbols-outlined">north_east</span>
+                    </button>
+                </div>
+                <div class="blog-tile-container">
+                    <div class="blog-author-container">
+                        <p><span>OFFICE CLEANING</span> OCT 9</p>
+                        <hr>
+                        <img src="../assets/blog-author-2.png" alt="Author Image">
+                        <p>SARA SMITH</p>
+                    </div>
+                    <h3>Keep Your Office Clean For Productivity</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="../presenter/review-container.js"></script>
 </body>
 </html>
