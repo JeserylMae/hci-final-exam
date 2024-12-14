@@ -145,7 +145,7 @@
     letter-spacing: 0.1rem;
     margin: 0;
 }
-/* 
-.blog-tile-container a:hover {
 
-} */
+.blog-tile-container a:hover {
+    text-decoration: underline;
+}
