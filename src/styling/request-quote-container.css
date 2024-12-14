@@ -1,0 +1,82 @@
+
+
+.request-quote-container {
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../assets/cleaning-tools.png');
+}
+
+.request-quote-container h2 {
+    font-size: 4.5rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0;
+}
+
+.request-quote-container h2 i {
+    font-weight: 200;
+}
+
+.request-quote-container p {
+    width: 40rem;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+.request-quote-container form {
+    width: 50%;
+    display: flex;
+    padding: 0.8rem;
+    margin-top: 2rem;
+    align-items: center;
+    flex-direction: row;
+    border-radius: 0.5rem;
+    background-color: black;
+    justify-content: space-between;
+}
+
+.request-quote-container form input {
+    width: 25rem;
+    height: 2rem;
+    color: white;
+    border: none;
+    margin-left: 2rem;
+    background-color: black;
+}
+
+.request-quote-container form button {
+    width: 6.5rem;
+    height: 3.8rem;
+    border-radius: 0.5rem;
+    background-color: var(--clr-backup);
+}
+
+.request-quote-container form input::placeholder {
+    color: #bdbdbd;
+}
+
+.request-quote-container form input:focus {
+    outline: none;
+    border: none;
+}
+
+.request-quote-container form button:hover {
+    background-color: #bdbdbd;
+}
+
+.request-quote-container form button:active {
+    transform: scale(0.9);
+    background-color: var(--clr-backup);
+}
