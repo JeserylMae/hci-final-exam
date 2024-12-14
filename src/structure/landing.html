@@ -8,9 +8,11 @@
     <link rel="shortcut icon" href="../assets/broomstick.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="../styling/intersection.css">
+    <link rel="stylesheet" href="../styling/faqs-container.css">
     <link rel="stylesheet" href="../styling/blog-container.css">
     <link rel="stylesheet" href="../styling/reviews-container.css">
     <link rel="stylesheet" href="../styling/services-container.css">
+    <link rel="stylesheet" href="../styling/request-quote-container.css">
     <link rel="stylesheet" href="../styling/cleaning-expert-container.css">
     <link rel="stylesheet" href="../styling/office-cleaners-container.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -24,10 +26,10 @@
             </div>
 
             <nav><ul>
-                <li><a href="">HOME</a></li>
+                <li><a style="color: #f86f00;" href="">HOME</a></li>
                 <li><a href="#about-container">ABOUT</a></li>
-                <li><a href="">SERVICES</a></li>
-                <li><a href="">BLOG</a></li>
+                <li><a href="#services-container">SERVICES</a></li>
+                <li><a href="#blog-container">BLOG</a></li>
                 <li><a href="">CONTACT</a></li>
             </ul></nav>
         </div>
@@ -69,7 +71,7 @@
             </div>
         </div>
 
-        <div class="office-cleaners-container">
+        <div class="office-cleaners-container" style="border-top: 0.1rem solid black;">
             <div class="left-container">
                 <div>
                     <p><span class="material-symbols-outlined">cleaning_services</span></p>
@@ -92,7 +94,7 @@
         </div>
     </div>
 
-    <div class="services-container">
+    <div class="services-container" id="services-container">
         <div class="metrics-container">
             <img src="../assets/wave.png" alt="">
             <div>
@@ -221,7 +223,7 @@
         </div>
     </div>
 
-    <div class="blog-container">
+    <div class="blog-container" id="blog-container">
         <div class="header-container">
             <h1>Latest Posts</h1>
             <div>
@@ -232,43 +234,119 @@
 
         <div class="post-container">
             <div class="one-post-container">
-                <div>
+                <div class="image-container">
                     <img src="../assets/sponge.jpg" alt="blog image">
-                    <button type="button" class="redirect-button">
+                    <button type="button" class="redirect-button" id="redirect-cleaning-tips-button">
                         <span class="material-symbols-outlined">north_east</span>
                     </button>
                 </div>
                 <div class="blog-tile-container">
                     <div class="blog-author-container">
-                        <p><span>CLEANING TIPS</span> OCT 9</p>
-                        <hr>
+                        <p><span class="rounded-bg">CLEANING TIPS</span> OCT 9</p>
+                        <div class="horizontal-line"></div>
                         <img src="../assets/blog-author-1.png" alt="Author Image">
-                        <p>ALEX WAYNE</p>
+                        <p>ALE<span class="name-underline">X WA</span>YNE</p>
                     </div>
-                    <h3>Guide To Keeping Your Home Sportless</h3>
+                    <a href="https://www.bacteria-busters.co.uk/post/the-ultimate-guide-to-keeping-your-home-spotless"
+                        title="Go to Guide To Keeping Your Home">
+                        <h3>Guide To Keeping Your Home <br> Spotless</h3>
+                    </a>
                 </div>
             </div>
 
             <div class="one-post-container">
-                <div>
+                <div class="image-container">
                     <img src="../assets/office-with-cabinet.jpg" alt="blog image">
-                    <button type="button" class="redirect-button">
+                    <button type="button" class="redirect-button" id="redirect-office-cleaning-button">
                         <span class="material-symbols-outlined">north_east</span>
                     </button>
                 </div>
                 <div class="blog-tile-container">
                     <div class="blog-author-container">
-                        <p><span>OFFICE CLEANING</span> OCT 9</p>
-                        <hr>
+                        <p><span class="rounded-bg">OFFICE CLEANING</span> OCT 9</p>
+                        <div class="horizontal-line"></div>
                         <img src="../assets/blog-author-2.png" alt="Author Image">
-                        <p>SARA SMITH</p>
+                        <p>SAR<span class="name-underline">A SM</span>ITH</p>
                     </div>
-                    <h3>Keep Your Office Clean For Productivity</h3>
+                    <a href="https://www.nimbusfacility.com/blog/office-cleanliness"
+                        title="Go to Keep Your Office Clean For Productivity">
+                        <h3>Keep Your Office Clean For <br> Productivity</h3>
+                    </a>
                 </div>
             </div>
         </div>
     </div>
 
+    <div class="faqs-container">
+        <div class="icon-container">
+            <p><span class="material-symbols-outlined">fact_check</span></p>
+            <p>FAQS</p>
+        </div>
+
+        <h2>Have Questions?</h2>
+        <p class="tag-line">We're committed to making your experience as smooth and straightforward as possible.</p>
+
+        <div class="question-container">
+            <div>
+                <h4>What Areas Do You Cover?</h4>
+                <button id="minimize-button"><span class="material-symbols-outlined">remove</span></button>
+                <button id="maximize-button" style="display: none;"><span class="material-symbols-outlined">add</span></button>
+            </div>
+            <div class="answer-container" style="display: none;">
+                <p>
+                    We proudly serve every places in Batangas. Whether it's residential or commercial cleaning, 
+                    our team is ready to help. If your area isn't listed, contact us to check availability. We're 
+                    always expanding to meet customer needs. Your location might be next on our service map!
+                </p>
+            </div>
+        </div>
+
+        <div class="question-container">
+            <div>
+                <h4>Do I Need To Provide Supplies?</h4>
+                <button id="minimize-button"><span class="material-symbols-outlined">remove</span></button>
+                <button id="maximize-button" style="display: none;"><span class="material-symbols-outlined">add</span></button>
+            </div>
+            <div class="answer-container" style="display: none;">
+                <p>
+                    No, you don't need to provide supplies. Our cleaning team brings all the necessary tools and 
+                    eco-friendly products to ensure your space is spotless. However, if you have specific products 
+                    you'd like us to use, feel free to let us know, and we’ll happily accommodate your preferences.
+                </p>
+            </div>
+        </div>
+
+        <div class="question-container">
+            <div>
+                <h4>How do i make payment?</h4>
+                <button id="minimize-button"><span class="material-symbols-outlined">remove</span></button>
+                <button id="maximize-button" style="display: none;"><span class="material-symbols-outlined">add</span></button>
+            </div>
+            <div class="answer-container" style="display: none;">
+                <p>
+                    You can make a payment securely through our website using major credit or debit cards. Simply 
+                    select your preferred cleaning service, proceed to checkout, and follow the payment instructions. 
+                    We also accept payments via PayPal for added convenience. Your payment details are encrypted to 
+                    ensure security.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="request-quote-container">
+        <h2>Promotions & <i>Discounts</i></h2>
+        <p>Find out how affordable cleaning can be — Request list of promotions and discounts today!</p>
+
+        <form>
+            <input type="email" name="email-input" id="email-input" placeholder="Enter your email" autocomplete="off" required>
+            <button id="request-button"><span class="material-symbols-outlined">trending_flat</span></button>
+        </form>
+    </div>
+
+    
+    <script type="module" src="../presenter/faqs-container.js"></script>
+    <script type="module" src="../presenter/blog-container.js"></script>
     <script type="module" src="../presenter/review-container.js"></script>
+    <script type="module" src="../presenter/request-quote-container.js"></script>
 </body>
 </html>
