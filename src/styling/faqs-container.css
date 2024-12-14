@@ -1,0 +1,89 @@
+
+.faqs-container {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-container p {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.icon-container p span {
+    font-size: 2rem;
+    margin: 0.4rem 1rem 0 0;
+}
+
+.faqs-container h2 {
+    margin: 0;
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.faqs-container .tag-line {
+    width: 40rem;
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 4rem;
+}
+
+.question-container {
+    width: 55rem;
+    padding: 3.5rem 3.5rem 1.5rem 3.5rem;
+    border-radius: 3rem;
+    margin-bottom: 2rem;
+    background-color: white;
+    transition: ease 0.3s;
+}
+
+.question-container div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.question-container div h4 {
+    line-height: 0;
+    margin: 0;
+    font-size: 2.3rem;
+    font-weight: 300;
+}
+
+.question-container div button {
+    border: none;
+    background-color: transparent;
+}
+
+.question-container div button span {
+    font-size: 2rem;
+}
+
+.answer-container p {
+    width: 75%;
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 2.3rem;
+    letter-spacing: 0.1rem;
+    transition: ease 0.3s;
+}
+
+.question-container:hover {
+    background-color: var(--clr-fg);
+}
