@@ -141,7 +141,7 @@ body {
 }
 
 .header-container nav ul li a:hover {
-    color: #f86f00;
+    color: var(--clr-neutral);
     font-size: 1.5rem;
     text-decoration: underline;
 }
